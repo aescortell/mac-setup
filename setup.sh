@@ -21,12 +21,13 @@ install_dev() { bash "$SCRIPTS_DIR/dev.sh"; }
 install_terminal() { bash "$SCRIPTS_DIR/terminal.sh"; }
 install_productivity() { bash "$SCRIPTS_DIR/productivity.sh"; }
 configure_system() { bash "$SCRIPTS_DIR/system.sh"; }
+configure_gitlab() { bash "$SCRIPTS_DIR/gitlab.sh"; }
 
 # ---------------------------
 # Main
 # ---------------------------
 if [ $# -eq 0 ]; then
-  echo "Uso: $0 [--apps | --dev | --terminal | --productivity | --system | --all]"
+  echo "Uso: $0 [--apps | --dev | --terminal | --productivity | --system | --gitlab | --all]"
   exit 1
 fi
 
@@ -39,12 +40,14 @@ for arg in "$@"; do
     --terminal) install_terminal ;;
     --productivity) install_productivity ;;
     --system) configure_system ;;
+    --gitlab) configure_gitlab;;
     --all) 
       install_apps
       install_dev
       install_terminal
       install_productivity
       configure_system
+      configure_gitlab
       ;;
     *) echo "❌ Opción no reconocida: $arg" ;;
   esac
