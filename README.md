@@ -62,7 +62,9 @@ Instala aplicaciones gráficas esenciales:
 - 1Password
 - WebStorm
 - Visual Studio Code
-- Docker Desktop.
+- Docker Desktop
+- MongoDB Compass
+- DBeaver
 
 **Herramientas de desarrollo (`--dev`)**  
 Incluye:
