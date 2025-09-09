@@ -12,6 +12,8 @@ apps=(
     notion
     mongodb-compass
     dbeaver-community
+    logi-options-plus
+    postman
 )
 
 for app in "${apps[@]}"; do
