@@ -65,6 +65,9 @@ Instala aplicaciones gráficas esenciales:
 - Docker Desktop
 - MongoDB Compass
 - DBeaver
+- Notion
+- Logi Options+
+- Postman
 
 **Herramientas de desarrollo (`--dev`)**  
 Incluye:
@@ -112,9 +115,9 @@ El script puede instalar automáticamente extensiones útiles para Visual Studio
 - Reinicia la terminal o recarga la configuración del shell para aplicar todos los cambios.  
 - Abre Visual Studio Code y asegúrate de que el comando `code` esté disponible en el PATH para instalar extensiones y abrir proyectos desde la terminal.
 
+---
 
 ## 🎉 Resultado
 
 Con este script tendrás un **entorno de desarrollo completo y funcional** en tu Mac en pocos minutos, listo para programar y ser productivo desde el primer momento.
 
----
