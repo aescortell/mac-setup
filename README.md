@@ -80,7 +80,16 @@ Configura Oh My Zsh junto con plugins de autocompletado y resaltado de sintaxis,
 
 Añadir en tu ~/.zshrc:
 ```bash
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(
+        git
+        gitfast
+        z
+        autojump
+        extract
+        colored-man-pages
+        zsh-autosuggestions
+        zsh-syntax-highlighting
+        )
 ```
 
 **Productividad (`--productivity`)**  
