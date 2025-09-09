@@ -88,6 +88,7 @@ plugins=(
         extract
         colored-man-pages
         zsh-autosuggestions
+        zsh-completions
         zsh-syntax-highlighting
         )
 ```
