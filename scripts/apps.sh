@@ -14,6 +14,7 @@ apps=(
     dbeaver-community
     logi-options-plus
     postman
+    autojump
 )
 
 for app in "${apps[@]}"; do
