@@ -124,6 +124,7 @@ El script puede instalar automáticamente extensiones útiles para Visual Studio
 
 - Reinicia la terminal o recarga la configuración del shell para aplicar todos los cambios.  
 - Abre Visual Studio Code y asegúrate de que el comando `code` esté disponible en el PATH para instalar extensiones y abrir proyectos desde la terminal.
+- Añadir export GITLAB_ACCESS_TOKEN="token" en .zshrc
 
 ---
 
