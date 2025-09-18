@@ -14,6 +14,7 @@ apps=(
     notion
     postman
     slack
+    termius
     visual-studio-code
     webstorm   
 )
