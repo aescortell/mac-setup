@@ -54,20 +54,23 @@ mac-setup/
 
 **Apps (`--apps`)**  
 Instala aplicaciones gráficas esenciales: 
-- iTerm2
-- Slack
-- Microsoft Teams
-- Google Chrome
-- Firefox
 - 1Password
-- WebStorm
-- Visual Studio Code
-- Docker Desktop
-- MongoDB Compass
+- Autojump
 - DBeaver
-- Notion
+- Docker Desktop
+- Firefox
+- Google Chrome
+- iTerm2
+- Libreoffice
 - Logi Options+
+- Microsoft Teams
+- MongoDB Compass
+- Notion
 - Postman
+- Slack
+- Termius
+- Visual Studio Code
+- WebStorm 
 
 **Herramientas de desarrollo (`--dev`)**  
 Incluye:
