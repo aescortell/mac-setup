@@ -1,20 +1,21 @@
 #!/bin/bash
 apps=(
-    iterm2
-    slack
-    microsoft-teams
-    google-chrome
-    firefox
     1password
-    webstorm
-    visual-studio-code
-    docker
-    notion
-    mongodb-compass
-    dbeaver-community
-    logi-options-plus
-    postman
     autojump
+    dbeaver-community
+    docker
+    firefox
+    google-chrome
+    iterm2
+    libreoffice
+    logi-options-plus
+    microsoft-teams
+    mongodb-compass
+    notion
+    postman
+    slack
+    visual-studio-code
+    webstorm   
 )
 
 for app in "${apps[@]}"; do
