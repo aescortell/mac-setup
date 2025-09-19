@@ -19,3 +19,7 @@ if [ ! -d "$HOME/.nvm" ]; then
 fi
 nvm install --lts
 nvm alias default 'lts/*'
+
+brew install pre-commit
+brew install terraform-docs
+brew install tflint
