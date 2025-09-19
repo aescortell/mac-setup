@@ -23,3 +23,9 @@ nvm alias default 'lts/*'
 brew install pre-commit
 brew install terraform-docs
 brew install tflint
+
+brew install kubectl
+brew install kubectx
+brew install kind
+brew install helm
+brew install yq
