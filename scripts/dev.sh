@@ -29,3 +29,4 @@ brew install kubectx
 brew install kind
 brew install helm
 brew install yq
+brew install awscli
